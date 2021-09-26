@@ -16,9 +16,4 @@
       "Access-Control-Allow-Origin": "*"
     }
   },
-  "clean_urls": true,
-  "routes": {
-    "/login/**": "index.html",
-    "/sample/**": "sample"
-  }
 }
