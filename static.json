@@ -1,19 +1,21 @@
+
 {
+  "encoding": "UTF-8",
   "headers": {
     "/*": {
-      "X-Author": "id71293382",
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8",
+      "X-Author": "id71293382"
     },
-    "/sample/**": {
-      "X-Author": "id71293382",
+    "/sample/*": {
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
+      "X-Author": "id71293382"
     },
     "/login/*": {
-      "X-Author": "id71293382",
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    }
-  },
+      "X-Author": "id71293382"
+    }    
+  }    
 }
